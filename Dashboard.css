@@ -1,0 +1,57 @@
+body{
+    background-color: #66cbe4;
+}
+.dashboard{
+    background-color: #235452;
+    border:2px solid gray;
+    border-radius:5px;
+    text-align: center;
+}
+.tag{
+    display:flex;
+    width:250px;
+    border:1px solid gray;
+    border-radius:5px;
+    padding-left:30px;
+}
+#campus{
+    color:blueviolet
+}
+#connect{
+    color:coral
+}
+.wel{
+    color:aqua
+}
+.section{
+    display:grid;
+    grid-template:auto auto auto auto;
+    grid-template-areas:"header header header header"
+                        "footer footer footer footer";
+    
+}
+.block{
+    border:1px solid gray;
+    border-radius:5px;
+    height:200px;
+    width:300px;
+    align-content: center;
+}
+.outside{
+    display:flex;
+    padding-left:460px;
+    padding-bottom:1px;  
+}
+.blocknav{
+    border:1px solid gray;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    align-content: center;
+    margin:2px;  
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
